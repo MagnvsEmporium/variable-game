@@ -1,2 +1,12 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+git lfs track "*.png"
+git lfs track "*.jpg"
+git lfs track "*.tga"
+git lfs track "*.wav"
+git lfs track "*.ogg"
+git lfs track "*.mp3"
+git lfs track "*.glb"
+git lfs track "*.gltf"
+git lfs track "*.blend"
